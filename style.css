@@ -39,11 +39,28 @@ nav{
     content: "";
     width: 0%;
     height: 2px;
-    background: #ED661F;
+    background: #e406d9;
     display: block;
     margin: auto;
     transition: 0.5s;
 }
 .navlinks ul li:hover::after{
     width: 100%;
+}
+.navbutton{
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    background-color:#0d24f1;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.navbutton:hover{
+    order: 1px solid #3adf08;
+    background: white;
+    transition: 0.5s;
 }
