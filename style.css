@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    align-items: center;
+    display: flex;
+    padding: 1% 6%;
+    justify-content: space-between;
+    background-color: rgb(10, 7, 7);
+    
+}
+.logoname{
+    text-align: left;
+    margin-left: 20px;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+}
+.navlinks{
+    text-align: center;
+    flex: 1;
+}
+.navlinks ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    color: white;
+}
+.navlinks ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+.navlinks ul li::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #ED661F;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.navlinks ul li:hover::after{
+    width: 100%;
+}
