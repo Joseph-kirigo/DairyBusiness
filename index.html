@@ -57,36 +57,36 @@
             </div>
         </div>
     </div>
-        <section class="results">
-            <div class="row1">
-            <div class="col1">
+        <section class="dashboard">
+            <div class="dash">
+            <div class="column1">
                <span class="title1">Daily Production in Litres</span>
-               <div id='error'></div>
-               <form id="formData" onsubmit="totalProduction(); event.preventDefault(); "> 
-                        <div class="formGroup">
-                            <label>Enter shed A production</label>
+               <div id='board'></div>
+               <form id="values" onsubmit="totalProduction(); event.preventDefault(); "> 
+                        <div class="sheds">
+                            <label>Production in Shed A</label>
                             <input type="text" id='shedA' class="form-control" >
                         </div>
                         
-                        <div class="formGroup">
-                            <label>Enter shed B production </label>
+                        <div class="sheds">
+                            <label>Production in Shed B </label>
                             <input type="text" id='shedB' class="form-control" >
                         </div>
             
-                        <div class="formGroup">
-                            <label>Enter shed C production </label>
+                        <div class="sheds">
+                            <label>Production in Shed C</label>
                             <input type="text" id='shedC' class="form-control" >
                         </div>
             
-                        <div class="formGroup">
-                            <label>Enter shed D production </label>
+                        <div class="sheds">
+                            <label> Production in Shed D </label>
                             <input type="text" id='shedD' class="form-control" >
                         </div>        
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
             </div>
-            <div class="col2">
-                <span class="title1">Produce and Income</span>
+            <div class="column2">
+                <span class="title1">Production and Sales</span>
                 <div id="produce">
                     <table class="table table-dark">
                         <div id="produce-div"></div>
@@ -97,7 +97,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div id="result">
+                <div id="outcome">
                       <table class="table table-dark">
                         <div id="leapYear-div"></div>
                         <thead>
