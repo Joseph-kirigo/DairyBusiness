@@ -171,13 +171,11 @@ border: 1px solid #25dd0d;
 background: white;
 transition: 1s;
 }
-.results
-{
-    background-color: #0b46e6;
+.dashboard{
+    background-color:blue;
 }
 
-.results .row1
-{
+.dashboard .dash{
     width: 100%;
     height: 100vh;
     display: flex;
@@ -185,8 +183,7 @@ transition: 1s;
     margin: auto;
 }
 
-.results .row1 .col1
-{
+.dashboard .dash .column1{
     background-color:rgba(#949496, 0.3); 
     border-radius: 0.5em;
     margin: 0.5em;
@@ -195,15 +192,13 @@ transition: 1s;
     width:40%;
 }
 
-.results .row1 .col1 #error
-{
+.dashboard .dash .column1 #board{
     color: white;
     padding: 1em;
     font-size: 18px;
     border-radius: 0.5em;
 }
-.results .row1 .col1 .title1, .col2 .title1
-{
+.dashboard .dash .column1 .title1, .column2 .title1{
     font-size: 2em;
     display: block;
     color: #ffffff;
@@ -212,8 +207,7 @@ transition: 1s;
 }
 
 
-.results .row1 .col2
-{
+.dashboard .dash .column2{
     border-radius: 0.5em;
     padding: 1em;
     margin: 0.5em;
@@ -222,17 +216,15 @@ transition: 1s;
     border:1px solid #fff;
 }
 
-.results .row1 .col2 div
-{
+.dashboard .dash .column2 div{
 margin: 5px;
 }
-.results .row1 .col2 .subtitle
-{
+.dashboard .dash .column2 .subtitle{
     font-size: x-large;
     color: rgb(255, 255, 255);
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
-.results .row .formGroup
+.dashboard .dash .sheds
 {
     font-size: 1.3em;
     margin-bottom: 1em;
@@ -243,19 +235,19 @@ margin: 5px;
     margin-top: 5%;
 }
 
-.results .row1 .formGroup input[type=text]
+.dashboard .dash .sheds input[type=text]
 {
     border: none;
     padding: 0.7em;
     border-radius: 0.2em;
     /* padding: 10px 5px 5px 10px; */
 }
-.results .row1 .formGroup input[type=text]:focus
+.dashboard .dash .sheds input[type=text]:focus
 {
     border:none;
     /* padding: 10px 5px 5px 10px; */
 }
-.results .row1 button
+.dashboard .dash button
 {
     color: white;
     background-color: rgb(43, 42, 42);
@@ -267,13 +259,13 @@ margin: 5px;
     margin-top: 0.3em;
     width: 30%;
 }
-.results .row1 button:hover
+.dashboard .dash button:hover
 {
     
     cursor: pointer;
     background-color: #e82222;
 }
-.results .row1 button:focus
+.dashboard .dash button:focus
 {
     border: none;
 }
