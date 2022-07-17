@@ -22,7 +22,7 @@
                 <li><a href="#">Reach Out</a></li>
             </ul>
         </div>
-        <div class="button2">
+        <div class="button">
             <a href="" class="navbutton">Get Started</a>
         </div>
     </nav>
@@ -57,9 +57,38 @@
             </div>
         </div>
     </div>
-    <div class="dashboard">
-
-    </div>
+        <section class="results">
+            <div class="row1">
+            <div class="col1">
+               <span class="title1">Daily Production in Litres</span>
+               <div id='error'></div>
+               <form id="formData" onsubmit="totalProduction(); event.preventDefault(); "> 
+                        <div class="formGroup">
+                            <label>Enter shed A production</label>
+                            <input type="text" id='shedA' class="form-control" >
+                        </div>
+                        
+                        <div class="formGroup">
+                            <label>Enter shed B production </label>
+                            <input type="text" id='shedB' class="form-control" >
+                        </div>
+            
+                        <div class="formGroup">
+                            <label>Enter shed C production </label>
+                            <input type="text" id='shedC' class="form-control" >
+                        </div>
+            
+                        <div class="formGroup">
+                            <label>Enter shed D production </label>
+                            <input type="text" id='shedD' class="form-control" >
+                        </div>        
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+            
+            
+            </div>
+            
+        </section>
     <h1 id="Gallery"><u class="u">Products Gallery</u></h1>
     <div class="items">
         <div class="sec">
@@ -86,13 +115,13 @@
     </div>
     <div class="footer">
         <div class="foot">
-            <div class="comp-footer">
+            <div class="maziwa">
                     <div class="logo">
                        <h1> Maziwa Dairy</h1>
                       <p>Quality Dairy Milk <br> Make your order today</p>
                     </div>
             </div>
-              <div class="comp-footer">
+              <div class="maziwa">
                   <h1> Company</h1>
                    <ul>
                        <li><a href=""> About</a></li>
@@ -102,7 +131,7 @@
                      </ul>
 
                 </div>
-      <div class="comp-footer">
+      <div class="maziwa">
               <h1> Dairy Products</h1>
                <ul>
                     <li><a href=""> Milk</a></li>
@@ -111,7 +140,7 @@
                     <li><a href=""> Cheese</a></li>
                 </ul>
        </div>
-       <div class="comp-footer">
+       <div class="maziwa">
               <h1> Others</h1>
             <ul>
                 <li><a href=""> FAQs</a></li>
