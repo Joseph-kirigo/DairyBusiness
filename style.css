@@ -222,7 +222,61 @@ transition: 1s;
     border:1px solid #fff;
 }
 
+.results .row1 .col2 div
+{
+margin: 5px;
+}
+.results .row1 .col2 .subtitle
+{
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.results .row .formGroup
+{
+    font-size: 1.3em;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 10%;
+    padding-bottom: 5%; */
+    margin-top: 5%;
+}
 
+.results .row1 .formGroup input[type=text]
+{
+    border: none;
+    padding: 0.7em;
+    border-radius: 0.2em;
+    /* padding: 10px 5px 5px 10px; */
+}
+.results .row1 .formGroup input[type=text]:focus
+{
+    border:none;
+    /* padding: 10px 5px 5px 10px; */
+}
+.results .row1 button
+{
+    color: white;
+    background-color: rgb(43, 42, 42);
+    border: none;
+    font-size: 1.3em;
+    border-radius: 5px;
+    padding: 0.5em;
+    float: right;
+    margin-top: 0.3em;
+    width: 30%;
+}
+.results .row1 button:hover
+{
+    
+    cursor: pointer;
+    background-color: #e82222;
+}
+.results .row1 button:focus
+{
+    border: none;
+}
 
 #Gallery{
     text-align: left;
