@@ -64,3 +64,79 @@ nav{
     background: white;
     transition: 0.5s;
 }
+.home{
+    width: 100%;
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+.home-cont{
+    margin: auto;
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 50px;
+    align-items: center;
+}
+#coverimage{
+    float: right; 
+    height: 400px;
+    width: 550px;
+    margin-top: 20%
+
+}
+.content > h1{
+    font-weight: 500;
+    font-size: 36px;
+    margin-top: 100px;
+    margin-top: 20%;
+    padding-left: 5%;
+    padding-top: 10%;
+
+}
+.content > p{
+padding-left: 5%;
+padding-top: 12px;
+font-weight: 300;
+font-size: 25px;
+} 
+.Numbers{
+    clear: left;
+    float: right;
+    border: 1px solid rgb(241, 227, 227);
+    background: white;
+    margin-right: 10%;
+    padding-bottom: 8%;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    
+
+}
+ .data{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-right: 16px;
+    cursor: pointer;
+    align-items: center;
+
+ }
+ .Ourstats{
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+ }
+ .data::after{
+    box-shadow: 2px 2px rgb(177, 170, 170);
+ }
+ .content ul li{
+     list-style: none;
+     display: inline-block;
+     padding: 8px 12px;
+     
+ }
+ 
