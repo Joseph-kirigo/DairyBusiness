@@ -171,11 +171,59 @@ border: 1px solid #25dd0d;
 background: white;
 transition: 1s;
 }
-.dashboard{
-    background-color: #25dd0d;
-    height: 100vh;
-    width: 100%;
+.results
+{
+    background-color: #0b46e6;
 }
+
+.results .row1
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    margin: auto;
+}
+
+.results .row1 .col1
+{
+    background-color:rgba(#949496, 0.3); 
+    border-radius: 0.5em;
+    margin: 0.5em;
+    padding: 2em;
+    font-size: 1.2em;
+    width:40%;
+}
+
+.results .row1 .col1 #error
+{
+    color: white;
+    padding: 1em;
+    font-size: 18px;
+    border-radius: 0.5em;
+}
+.results .row1 .col1 .title1, .col2 .title1
+{
+    font-size: 2em;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+
+.results .row1 .col2
+{
+    border-radius: 0.5em;
+    padding: 1em;
+    margin: 0.5em;
+    background-color:rgba(#949496, 0.3);     
+    width:50%;
+    border:1px solid #fff;
+}
+
+
+
 #Gallery{
     text-align: left;
     font-weight: 600;
@@ -228,26 +276,26 @@ transition: 1s;
     padding-left: 18px;
     padding-bottom: 10px;
 }
-.comp-footer> h1{
+.maziwa> h1{
     color: white;
     font-weight: 200;
     padding-top: 16px;
     padding-bottom: 10px;
     font-size: 26px;
 }
-.comp-footer .fa{
+.maziwa .fa{
     background: white;
     padding: 3px;
     margin-left: 20%;
     margin-top: 10px;
     border-radius: 10px; 
 }
-.comp-footer ul li{
+.maziwa ul li{
     list-style: none;
     color: white;
     padding: 4px 4px 4px 4px;
 }
-.comp-footer ul li a{
+.maziwa ul li a{
     text-decoration: none;
     color: white;
 }
