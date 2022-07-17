@@ -61,7 +61,7 @@ nav{
 }
 .navbutton:hover{
     order: 1px solid #3adf08;
-    background: white;
+    background-color: red;
     transition: 0.5s;
 }
 .home{
@@ -168,7 +168,7 @@ cursor: pointer;
 }
 .homebutton:hover{
 border: 1px solid #25dd0d;
-background: white;
+background: red;
 transition: 1s;
 }
 .dashboard{
@@ -265,7 +265,7 @@ margin: 5px;
     cursor: pointer;
     background-color: #e82222;
 }
-.dashboard .dash button:focus
+.dashboard .button:focus
 {
     border: none;
 }
