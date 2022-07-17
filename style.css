@@ -176,6 +176,31 @@ transition: 1s;
     height: 100vh;
     width: 100%;
 }
+#Gallery{
+    text-align: left;
+    font-weight: 600;
+    margin-left: 15%;
+    margin-bottom: 14px;
+}
+.items{
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+    margin-left: 15%;
+}
+.items > h2 {
+    text-align: center;
+    font-size: 100;
+}
+#prod{
+    text-align: left;
+}
+#img{
+    width: 200px;
+    height: 200px;
+}
 .footer{
     background: black;
     width: 100%;
