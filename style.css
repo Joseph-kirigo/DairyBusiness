@@ -174,7 +174,7 @@ background: red;
 transition: 1s;
 }
 .dashboard{
-    background-color:yellow;
+    background-color:rgb(161, 161, 15);
 }
 
 .dashboard .dash{
