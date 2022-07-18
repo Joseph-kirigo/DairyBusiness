@@ -173,6 +173,15 @@ border: 1px solid #25dd0d;
 background: red;
 transition: 1s;
 }
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
 .dashboard{
     background-color:rgb(161, 161, 15);
 }
